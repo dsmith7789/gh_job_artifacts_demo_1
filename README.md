@@ -9,3 +9,9 @@
 * Jobs can output simple values
 * Values can be reused in another job
     * Ex. name of a file generated in a previous step
+
+## Dependency caching
+* Some steps (ex. get code, install dependencies) are repeated many times. 
+* Installing dependencies in particular is time consuming
+* Reducing workflow duration --> faster website deployment, less money spent
+* Built in action to support this: `cache`
