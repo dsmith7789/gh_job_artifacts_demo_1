@@ -9,6 +9,11 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
+      - name: Cache dependencies for use across jobs
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: 
       - name: Install dependencies
         run: npm ci
       - name: Lint code
