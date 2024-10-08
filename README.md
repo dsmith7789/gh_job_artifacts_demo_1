@@ -15,3 +15,4 @@
 * Installing dependencies in particular is time consuming
 * Reducing workflow duration --> faster website deployment, less money spent
 * Built in action to support this: `cache`
+* You can cache other things besides dependencies, this is just a very common application
